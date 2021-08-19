@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => {
         $lib: path.resolve(cwd, './src/lib'),
         $components: path.resolve(cwd, './src/components'),
         $assets: path.resolve(cwd, './src/assets'),
+        $stores: path.resolve(cwd, './src/stores'),
       },
     },
     plugins: [svelte()],
