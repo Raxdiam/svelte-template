@@ -16,10 +16,12 @@
     "paths": {
       "$lib": ["src/lib"],
       "$lib/*": ["src/lib/*"],
-      "$components": ["src/lib/components"],
-      "$components/*": ["src/lib/components/*"],
+      "$components": ["src/components"],
+      "$components/*": ["src/components/*"],
       "$assets": ["src/assets"],
-      "$assets/*": ["src/assets/*"]
+      "$assets/*": ["src/assets/*"],
+      "$stores": ["src/stores"],
+      "$stores/*": ["src/stores/*"],
     }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]

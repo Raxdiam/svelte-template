@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: {
         $lib: path.resolve(cwd, './src/lib'),
-        $components: path.resolve(cwd, './src/lib/components'),
+        $components: path.resolve(cwd, './src/components'),
         $assets: path.resolve(cwd, './src/assets'),
       },
     },
